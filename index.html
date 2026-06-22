@@ -681,6 +681,7 @@
         <span class="tag">BI Dashboard</span>
       </div>
     </div>
+   
     <div class="project-aside">
       <span class="project-badge">Business Intelligence</span>
       <a class="hero-cta" href="https://github.com/Ballistic-02/Movie-Ratings-Analysis" target="_blank" rel="noopener" style="white-space: nowrap; font-size: 0.8rem;">
@@ -691,9 +692,54 @@
       </a>
     </div>
   </div>
-</section>
-
-<div class="divider"></div>
+ <div class="project-card reveal" role="article" aria-labelledby="proj-title-5" style="margin-top: 1.5rem;">
+    <div>
+      <p class="project-number">Project 05</p>
+      <h3 class="project-title" id="proj-title-5">Netflix Catalog Analytics &amp; Operational Optimization</h3>
+      <p class="project-body">
+        A production-grade, 3-page interactive Power BI dashboard built to reverse-engineer the global
+        Netflix catalog and unlock data-driven content strategies, talent networks, and platform
+        operational insights optimised for executive-level decision-making.
+      </p>
+      <p class="project-body" style="margin-top: 1rem;">
+        The technical foundation is a rigorous ETL pipeline in Power Query: multi-value text cells in
+        columns like country, director, and genre were programmatically split into distinct rows using
+        string delimiters, ensuring a title featuring multiple countries or directors distributes metrics
+        accurately without distorting totals. Duration columns were engineered into separate
+        <em>duration_value</em> and <em>duration_unit</em> fields to isolate movie runtimes from
+        episodic series metrics, and unformatted date fields were converted into true Date types with
+        custom seasonal hooks to override alphabetical sort behaviors.
+      </p>
+      <p class="project-body" style="margin-top: 1rem;">
+        The three dashboard pages each serve a distinct strategic purpose — <strong style="color: var(--text);">Page 1</strong> maps
+        global library growth, geographic production trends, and Movies vs. TV Show distribution;
+        <strong style="color: var(--text);">Page 2</strong> identifies the platform's most prolific directors via Top-N filtering,
+        charts dominant genres using Treemaps, and tracks genre mix evolution over the last decade;
+        <strong style="color: var(--text);">Page 3</strong> builds a chronological ingestion calendar to find high-volume content
+        drop windows, tracks average film duration across eras, and visualises TV show longevity
+        thresholds to pinpoint early cancellation drop-off rates.
+      </p>
+      <div class="project-tags" aria-label="Technologies used">
+        <span class="tag">Power BI</span>
+        <span class="tag">DAX</span>
+        <span class="tag">Power Query</span>
+        <span class="tag">ETL Pipeline</span>
+        <span class="tag">Data Modelling</span>
+        <span class="tag">Content Strategy</span>
+        <span class="tag">Talent Analytics</span>
+        <span class="tag">3-Page Dashboard</span>
+      </div>
+    </div>
+    <div class="project-aside">
+      <span class="project-badge">Business Intelligence</span>
+      <a class="hero-cta" href="https://github.com/Ballistic-02/Netflix_Entertainment_Analytics.pbix" target="_blank" rel="noopener" style="white-space: nowrap; font-size: 0.8rem;">
+        View on GitHub
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 8h10M9 4l4 4-4 4"/>
+        </svg>
+      </a>
+    </div>
+  </div>
 </section>
 
 <div class="divider"></div>
